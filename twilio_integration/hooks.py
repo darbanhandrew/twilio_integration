@@ -215,3 +215,4 @@ app_license = "MIT"
 # auth_hooks = [
 #	"twilio_integration.auth.validate"
 # ]
+#override_email_send = "twilio_integration.overrides.send"

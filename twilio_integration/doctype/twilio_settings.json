@@ -1,0 +1,28 @@
+{
+    "doctype": "Twilio Settings",
+    "is_tree": 0,
+    "is_single": 1,
+    "is_submittable": 0,
+    "is_importable": 0,
+    "depends_on": "Twilio Integeration",
+    "document_type": "Document",
+    "fields": [
+        {
+            "fieldname": "account_sid",
+            "label": "Account SID",
+            "fieldtype": "Data",
+            "reqd": 1
+        },
+        {
+            "fieldname": "auth_token",
+            "label": "Auth Token",
+            "fieldtype": "Password",
+            "reqd": 1
+        },
+        {
+            "fieldname": "service_id",
+            "label":"Service ID",
+            "reqd":1
+        }
+    ]
+}
